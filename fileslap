@@ -1,0 +1,17 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import requests, sys, json
+
+USER = 'YOURUSERNAME'
+PASS = 'YOURPASSWORD'
+
+r = requests.post('http://fileslap.com/api/files/', files={'file': open(sys.argv[1])}, auth=(USER, PASS))
+
+if (r.status_code is not 200):
+    print "Error " + str(r.status_code) + ": " + r.content
+    sys.exit()
+        
+data = json.loads(r.content)
+print "URL: http://fileslap.com" + data['url']
+print "Raw: " + data['fileurl']
