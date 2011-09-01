@@ -16,4 +16,8 @@
 
 ### Result
 
-The link to the file (both on the site and the raw file) will be output to stdout.
+The link to the file (both on the site and the raw file) will be output to stdout, like this:
+
+    URL: http://fileslap.com/7Hi/index
+    Raw: http://media.fileslap.com.s3.amazonaws.com/7Hi/index.html
+
