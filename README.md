@@ -3,10 +3,9 @@
 ### Installation
 
 - Install [python-requests](http://python-requests.org) (it's the only dependency).
-- Download the "fileslap" script
-- Edit the script, replacing YOURUSERNAME and YOURPASSWORD with your login info
+- Download the "fileslap" script.
+- Edit the script, replacing YOURUSERNAME and YOURPASSWORD with your login info.
 - Make it executable:
-
     `$ chmod o+x ./fileslap`
 - Move the script to /usr/local/bin/
 
