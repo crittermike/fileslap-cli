@@ -2,8 +2,9 @@
 
 ### Installation
 
+- Install [python-requests](http://python-requests.org) (it's the only dependency).
 - Download the "fileslap" script
-- Edit the script, replacing USERNAME and PASSWORD with your login info
+- Edit the script, replacing YOURUSERNAME and YOURPASSWORD with your login info
 - Make it executable:
 
     `$ chmod o+x ./fileslap`
@@ -15,6 +16,4 @@
 
 ### Result
 
-The link to the file will be output to stdout.
-
-Also, if you have xclip installed, it will copy the link to your clipboard.
+The link to the file (both on the site and the raw file) will be output to stdout.
