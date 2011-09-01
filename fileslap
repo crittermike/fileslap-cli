@@ -11,7 +11,7 @@ r = requests.post('http://fileslap.com/api/files/', files={'file': open(sys.argv
 
 if (r.status_code is not 200):
     try:
-        print "Error " + str(r.status_code) + ": " + r.content)
+        print "Error " + str(r.status_code) + ": " + r.content
     except TypeError: # r.content may throw a type error 
         print "Error " + str(r.status_code)
     sys.exit()
