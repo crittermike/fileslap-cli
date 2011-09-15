@@ -2,7 +2,7 @@
 
 ### Installation
 
-- Install [python-requests](http://python-requests.org) (it's the only dependency).
+- [Install python-requests](http://docs.python-requests.org/en/latest/user/install/) (it's the only dependency).
 - Download the "fileslap" script.
 - Edit the script, replacing YOURUSERNAME and YOURPASSWORD with your login info.
 - Make it executable:
